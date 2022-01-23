@@ -15,7 +15,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.jewelrystore.Interfaces.ItemClickListener;
 import com.example.jewelrystore.Models.Order;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
@@ -153,13 +152,12 @@ public class NewOrderActivity extends AppCompatActivity {
         adapter.startListening();
     }
 
-    public static class AdminOrdersViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener
+    public static class AdminOrdersViewHolder extends RecyclerView.ViewHolder
     {
         public TextView txt_order_id,txt_order_date,txt_order_price,txt_order_address;
         public TextView txt_order_user,txt_order_userphone,txt_order_conf,txt_order_state;
         public Button btn_change_state,btn_view_product,btn_change_state2;
         private ImageView img_delete;
-        private ItemClickListener itemClickListener;
         public AdminOrdersViewHolder(@NonNull View itemView)
         {
             super(itemView);
@@ -175,16 +173,6 @@ public class NewOrderActivity extends AppCompatActivity {
             btn_view_product=itemView.findViewById(R.id.admin_btn_view_products);
             txt_order_address=itemView.findViewById(R.id.order_address2);
             img_delete=itemView.findViewById(R.id.delete_item);
-        }
-
-        @Override
-        public void onClick(View v)
-        {
-            itemClickListener.onClick(v,getAdapterPosition(),false);
-        }
-        public void setItemClickListener(ItemClickListener itemClickListener)
-        {
-            this.itemClickListener = itemClickListener;
         }
     }
 }
