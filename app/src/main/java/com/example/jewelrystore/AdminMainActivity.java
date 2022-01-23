@@ -21,7 +21,6 @@ public class AdminMainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_admin_main);
 
         new_order=findViewById(R.id.new_order_Activity);
-        add_new_product=findViewById(R.id.add_new_product_Activity);
         logout=findViewById(R.id.logout_admin);
         view_all=findViewById(R.id.view_all_product_Activity);
         view_all.setOnClickListener(new View.OnClickListener() {
@@ -48,14 +47,7 @@ public class AdminMainActivity extends AppCompatActivity {
 
             }
         });
-        add_new_product.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(AdminMainActivity.this,AdminCategoryActivity.class);
-                startActivity(intent);
 
-            }
-        });
     }
 
     @Override

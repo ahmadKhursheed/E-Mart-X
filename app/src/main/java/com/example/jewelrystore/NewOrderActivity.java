@@ -1,12 +1,10 @@
 package com.example.jewelrystore;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -19,8 +17,6 @@ import android.widget.Toast;
 
 import com.example.jewelrystore.Interfaces.ItemClickListener;
 import com.example.jewelrystore.Models.Order;
-import com.example.jewelrystore.Prevalent.Prevalent;
-import com.example.jewelrystore.ViewHolder.OrderViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;

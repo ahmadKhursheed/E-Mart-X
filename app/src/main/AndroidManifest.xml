@@ -53,12 +53,6 @@
             android:name=".HomeActivity"
             android:screenOrientation="locked" />
         <activity
-            android:name=".AdminCategoryActivity"
-            android:screenOrientation="locked" />
-        <activity
-            android:name=".AdminAddNewProdcutActivity"
-            android:screenOrientation="locked" />
-        <activity
             android:name=".MainActivity"
             android:screenOrientation="locked" />
         <activity

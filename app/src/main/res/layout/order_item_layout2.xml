@@ -127,21 +127,21 @@
                 android:layout_marginTop="15dp"
                 android:layout_centerHorizontal="true"
                 />
+
             <Button
                 android:id="@+id/admin_btn_view_products"
                 android:layout_width="100dp"
                 android:layout_height="35dp"
-                android:layout_marginTop="15dp"
-                android:fontFamily="@font/hero_regular"
-                android:textStyle="bold"
-                android:textSize="12sp"
-                android:layout_toLeftOf="@id/center_check"
                 android:layout_below="@id/order_state2"
+                android:layout_marginTop="15dp"
+                android:layout_toLeftOf="@id/center_check"
                 android:background="@drawable/btn_style2"
+                android:fontFamily="@font/hero_regular"
                 android:text="View Product"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
-            />
+                android:textSize="12sp"
+                android:textStyle="bold" />
             <Button
                 android:id="@+id/admin_btn_confirm_shipped"
                 android:layout_width="100dp"

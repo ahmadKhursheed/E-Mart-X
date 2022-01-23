@@ -1,67 +1,44 @@
 package com.example.jewelrystore;
 
-import android.animation.Animator;
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Handler;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.AnimationUtils;
-import android.view.animation.LayoutAnimationController;
 import android.widget.SearchView;
 import android.widget.Toast;
-
 
 import com.example.jewelrystore.Models.Products;
 import com.example.jewelrystore.Prevalent.Prevalent;
 import com.example.jewelrystore.ViewHolder.ProductViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
-import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
-
-import java.util.List;
-
 import de.hdodenhof.circleimageview.CircleImageView;
-import jp.wasabeef.recyclerview.adapters.SlideInLeftAnimationAdapter;
 
-
-/**
- * A simple {@link Fragment} subclass.
- */
 public class HomeFragment extends Fragment {
 
-    public HomeFragment() {
-        // Required empty public constructor
-    }
+    public HomeFragment() { }
     private DatabaseReference productRef;
     private RecyclerView recyclerView;
-    private Query query;
     RecyclerView.LayoutManager layoutManager;
     private CircleImageView profile;
     private SearchView searchView;
-    private Boolean exit = false;
     private int flag=0;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
         View view =inflater.inflate(R.layout.fragment_home, container, false);
 
         profile=view.findViewById(R.id.profile_image2);
@@ -82,7 +59,6 @@ public class HomeFragment extends Fragment {
                         if (flag==1)
                         {
                             getActivity().finish();
-
                         }
                         else if (flag==0)
                         {
