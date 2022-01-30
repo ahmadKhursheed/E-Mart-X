@@ -56,8 +56,6 @@ public class SignInActivity extends AppCompatActivity {
         btn_admin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
                     btn_admin.setVisibility(View.INVISIBLE);
                     textView1.setVisibility(View.INVISIBLE);
                     checkBox_rememberMe.setVisibility(View.INVISIBLE);
@@ -65,7 +63,6 @@ public class SignInActivity extends AppCompatActivity {
                     textView2.setVisibility(View.INVISIBLE);
                     btn_login.setText("Login Admin");
                     parentDbName="Admins";
-
             }
         });
         btn_users.setOnClickListener(new View.OnClickListener() {

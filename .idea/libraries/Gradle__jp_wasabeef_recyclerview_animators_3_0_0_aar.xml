@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5381010352724800386381ff1506eb44/jetified-recyclerview-animators-3.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5381010352724800386381ff1506eb44/jetified-recyclerview-animators-3.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5381010352724800386381ff1506eb44/jetified-recyclerview-animators-3.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/420baac9bb8551a15349e6764dc61041/jetified-recyclerview-animators-3.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/420baac9bb8551a15349e6764dc61041/jetified-recyclerview-animators-3.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/420baac9bb8551a15349e6764dc61041/jetified-recyclerview-animators-3.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jp.wasabeef/recyclerview-animators/3.0.0/19fa46543c24f1fa26c5c62ceab5b77e17fa79a3/recyclerview-animators-3.0.0-javadoc.jar!/" />

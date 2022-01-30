@@ -16,11 +16,11 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        applogo=findViewById(R.id.img_app_logo);
+        applogo = findViewById(R.id.img_app_logo);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(SplashActivity.this,SignInActivity.class);
+                Intent i = new Intent(SplashActivity.this, SignInActivity.class);
                 startActivity(i);
                 finish();
             }

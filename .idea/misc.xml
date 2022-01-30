@@ -36,6 +36,9 @@
         <entry key="..\:/Users/Ahmad Khursheed/E-Mart-X/app/src/main/res/layout/product_item_layout_4.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/Ahmad Khursheed/E-Mart-X/app/src/main/res/menu/menu_bottom.xml" value="0.2" />
         <entry key="..\:/Users/Ahmad Khursheed/E-Mart-X/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_admin_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.2359375" />
+        <entry key="app/src/main/res/layout/activity_update_profile.xml" value="0.2359375" />
       </map>
     </option>
   </component>
